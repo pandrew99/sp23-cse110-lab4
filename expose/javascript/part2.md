@@ -40,4 +40,33 @@ it takes the element in the `prices` array for that iteration, multiplying it
 by 1 - discount, and pushing it to the `discounted` array. In this case, 
 it returns an array with each element in `[ 100, 200, 300 ]` and multiples it
 by 0.5 to get `[ 50, 100, 150 ]`.
-12. 
+12. Answers
+    A. `student.name`
+    B. `student['Grad Year']`
+    C. `student.greeting()`
+    D. `student['Favorite Teacher'].name`
+    E. `student.courseLoad[0]`
+13. Arithmetic
+    A. `'32'`; it converts the 2 to a string and then concatentates them
+    B. `1`; it converts the 3 to an integer before subtracting them
+    C. `3`; sets null to be 0, and then adds the ints
+    D. `'3null'`; sets null to be a string and then concatenates them
+    E. `4`; sets true to be 1, and then adds the ints
+    F. `0`; sets false null to be 0, and then adds them
+    G. `'3undefined'`; sets undefinded to be a string, and the concatenates them 
+    H. `NaN`; tries to convert undefined to a number but it's not possible so it's NaN,
+    meaning "Not a Number". When trying to do subtraction it's not possible as a result
+    so it just returns NaN. 
+14. Comparison
+    A. `true`; sets 2 to a number and returns true since 2 > 1
+    B. `false`; compares a char at a time. The first char is 2 and 1 and 2 > 1, 
+    so it returns false. 
+    C. `true`; sets '2' to be an int, and 2 == 2 so it returns true
+    D. `false`; the int 2 is not equal to the string 2, so it returns false
+    E. `false`; converts true to be 1, and 1 is not equal to 2 so returns false
+    F. `true`; converts 2 to be true, and true is equal to true so returns true
+15. `==` converts the operands on both sides of the equation to 
+    a common type before performing the comparison. On the other
+    hand, `===` compares the operands directly without modifying
+    the types. As we saw in parts C and D in question 14 above, 
+    `2 == '2'` will return true, while `2 === '2'` will return false. 
