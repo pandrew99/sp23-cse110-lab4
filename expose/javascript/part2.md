@@ -40,7 +40,7 @@ it takes the element in the `prices` array for that iteration, multiplying it
 by 1 - discount, and pushing it to the `discounted` array. In this case, 
 it returns an array with each element in `[ 100, 200, 300 ]` and multiples it
 by 0.5 to get `[ 50, 100, 150 ]`.
-12. Answers
+12. Object Notation
     A. `student.name`
     B. `student['Grad Year']`
     C. `student.greeting()`
@@ -70,3 +70,18 @@ by 0.5 to get `[ 50, 100, 150 ]`.
     hand, `===` compares the operands directly without modifying
     the types. As we saw in parts C and D in question 14 above, 
     `2 == '2'` will return true, while `2 === '2'` will return false. 
+16. Code [here](/expose/javascript/part2-question16.js)
+17. `[ 2, 4, 6 ]`; I determined the result by running the code and going
+    step by step. For each iteration of the for loop in `modifyArray`, it
+    uses each element in the input `array`, multiplies the element by 2
+    in `doSomething`, and then pushes it into `newArr`. After the for loop
+    is compklete, then it `newArray` with `[ 2, 4, 6 ]`, each element in the 
+    original array but doubled. 
+18. Code [here](/expose/javascript/part2-question18.js)
+19. Answer below
+```
+1
+4
+3
+2
+```
